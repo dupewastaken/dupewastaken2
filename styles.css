@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(to right, #080808, #161616, #080808);
+}
+
+.smalltxt {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2rem;
+    color: #fff;
+    justify-content: center;
+    
+}
+
+.smallertxt {
+    text-align: center;
+    font-size: 2rem;
+    color: #8d8d8d;
+    justify-content: center;   
+}
+
+.smallertxt a {
+    color:bisque;
+}
+
+.smallertxt a:hover {
+    color: #fff;
+}
+
+.image {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.daily {
+    font-size: 2rem;
+    color: #8d8d8d;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
